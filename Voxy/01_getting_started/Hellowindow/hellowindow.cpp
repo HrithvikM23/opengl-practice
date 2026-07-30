@@ -11,7 +11,7 @@ int main() {
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);// Set the OpenGL profile to core
 	GLFWwindow* window = glfwCreateWindow(1920, 1080, "Voxy", NULL, NULL);// Create a window with the specified width, height, and title, fullscreen or windowed as NULL, and no shared context
 	// Check if the window was created successfully
-	if(window==NULL) {
+	if (window == NULL) {
 		cout << "Failed to create GLFW window" << endl;
 		glfwTerminate();
 		return -1;
