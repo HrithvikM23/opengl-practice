@@ -38,7 +38,7 @@ This repo tracks my progress through the LearnOpenGL tutorials — from basic se
 
 - [x] Setting up OpenGL context (GLFW + GLAD)
 - [x] Hello Window
-- [x] Hello Triangle
+- [ ] Hello Triangle
 - [ ] Shaders
 - [ ] Textures
 - [ ] Transformations
